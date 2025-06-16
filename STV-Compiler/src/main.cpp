@@ -15,6 +15,8 @@ std::string tokenTypeToString(TokenType type)
         return "Equals";
     case TokenType::Plus:
         return "Plus";
+    case TokenType::Minus:
+        return "Minus";
     case TokenType::Semicolon:
         return "Semicolon";
     case TokenType::Print:
