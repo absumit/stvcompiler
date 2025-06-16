@@ -9,6 +9,7 @@ enum class TokenType
     Number,
     String,
     Equals,
+    Minus,
     Plus,
     Semicolon,
     Print,
