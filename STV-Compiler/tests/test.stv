@@ -1,2 +1,4 @@
-// Main test file for STV-Compiler
-// ...existing code...
+let x=5+3-5;
+let a="sumit";
+print a;
+
