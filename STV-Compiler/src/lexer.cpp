@@ -49,6 +49,10 @@ std::vector<Token> tokenize(const std::string &filename)
         {
             tokens.push_back({TokenType::Plus, "+"});
         }
+        else if (ch == '-')
+        {
+            tokens.push_back({TokenType::Minus, "-"});
+        }
         else if (ch == ';')
         {
             tokens.push_back({TokenType::Semicolon, ";"});
