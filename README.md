@@ -134,6 +134,32 @@ Example commit message:
 feat: add support for array literals in parser
 ```
 
+### Compilation Database
+
+For better IDE integration and tooling support, you can generate a compilation database (`compile_commands.json`) using Bear:
+
+```bash
+# Install Bear if not already installed
+# #macOS
+brew install bear
+
+# Ubuntu/Debian
+sudo apt-get install bear
+
+# Generate the compilation database
+make clean
+bear -- make
+```
+
+The generated `compile_commands.json` file enables:
+
+- Impoved code navigation in IDEs
+- Better autocompletion
+- Static analysis tools like clang-tidy
+- Integrations with language servers like clangd
+
+**Note:** It's recommended to add `compile_commands.json` to your `.gitignore` file and generate it locally as needed, rather than commiting it to version control.
+
 ## Documentation
 
 - [Design Documentation](docs/design.md) - Architectural decisions and language design
