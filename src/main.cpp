@@ -28,9 +28,14 @@ std::string tokenTypeToString(TokenType type)
     }
 }
 
-int main()
+int main(int argc, char*argv[])
 {
-    auto tokens = tokenize("STV-Compiler/tests/test.stv");
+    if(argc<2){
+        std::cerr<<"Usage: "<<argv[0]<<" <input file>"<<std::endl;
+        return 1;
+    }
+    std::string inputFile = argv[1];
+    auto tokens = tokenize(inputFile);
     for (const auto &token : tokens)
     {
         std::cout << tokenTypeToString(token.type) << ": '" << token.value << "'\n";
