@@ -1,0 +1,168 @@
+# Compiled Object files
+*.o
+*.ko
+*.obj
+*.elf
+*.slo
+*.lo
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Build directories
+build/
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# CMake specific files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile.cmake
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Generated files
+generated/
+*.generated.*
+*.gen.*
+
+# IDE/Editor specific files
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.csproj.user
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+*.xcuserstate
+
+# JetBrains IDEs (CLion, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+cmake-build-*/
+
+# Eclipse
+.settings/
+.cproject
+.project
+.classpath
+
+# Compiler-specific
+lex.yy.c
+y.tab.c
+y.tab.h
+parser.c
+parser.h
+lexer.c
+*.tab.c
+*.tab.h
+*.yy.c
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux specific
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Project specific (customize as needed)
+# Exclude the compiler executable (assuming it's named stvcompiler)
+stvcompiler
+
+# Test output files
+tests/output/
+*.test.output
+
+# Dependencies directory if using package managers
+deps/
+packages/
+vendor/
+
+# Documentation generated
+docs/generated/
+doxygen/
+
+# Logs
+*.log
+log/
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Cache files
+.cache/
+*.cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# clangd cache
+.clangd/
+.clangd
+compile_flags.txt
