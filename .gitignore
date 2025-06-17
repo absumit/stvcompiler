@@ -154,3 +154,15 @@ logs/
 *.temp
 tmp/
 temp/
+
+# Cache files
+.cache/
+*.cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# clangd cache
+.clangd/
+.clangd
+compile_flags.txt
